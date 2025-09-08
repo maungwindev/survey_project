@@ -348,7 +348,7 @@ export default function SurveyPage() {
           </Button>
 
           <span className="text-sm text-muted-foreground">
-            {Object.keys(answers).length} of {surveyQuestions.length} answered
+            {Object.keys(answers).length} of {surveyQuestions.length} 
           </span>
 
           {currentQuestion === surveyQuestions.length - 1 ? (
