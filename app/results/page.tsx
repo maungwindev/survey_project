@@ -132,11 +132,12 @@ export default function ResultsPage() {
 
             <div className="flex items-center justify-center gap-4">
               <Badge className={getCategoryColor(resultsData.resultCategory)}>{resultsData.resultCategory}</Badge>
+              {/*
               <Badge
                 className={`${passFailStatus.status === "PASS" ? "bg-green-100 text-green-800 border-green-200" : "bg-red-100 text-red-800 border-red-200"}`}
               >
                 {passFailStatus.status}
-              </Badge>
+              </Badge> */}
             </div>
           </CardContent>
         </Card>
@@ -202,13 +203,14 @@ export default function ResultsPage() {
             <Home className="h-4 w-4" />
             Take Another Survey
           </Button>
+          {/* Action Buttons 
           <Button
             onClick={() => router.push("/admin")}
             className="bg-primary hover:bg-primary/90 text-primary-foreground flex items-center gap-2"
           >
             <Trophy className="h-4 w-4" />
             View All Results
-          </Button>
+          </Button> */}
         </div>
       </div>
     </div>

@@ -71,7 +71,7 @@ export default function HomePage() {
   
       if (insertError) throw insertError;
   
-      setSuccess("Username validated successfully!");
+      setSuccess("Username created successfully!");
   
       // Redirect after a short delay
       setTimeout(() => {
@@ -111,7 +111,7 @@ export default function HomePage() {
                   className="bg-input border-border focus:ring-2 focus:ring-ring focus:border-transparent"
                   disabled={isLoading}
                 />
-                <p className="text-sm text-muted-foreground">3-20 characters, letters, numbers, and underscores only</p>
+                <p className="text-sm text-muted-foreground">3-20 characters</p>
               </div>
 
               {error && (

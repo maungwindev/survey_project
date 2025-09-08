@@ -86,17 +86,26 @@ const surveyQuestions = [
   },
   {
     id: "q8",
-    question: "Which one is correct ?",
+    question: "Which one is unsafe for use?",
     image: "/q8.jpg",
+    options: [
+      { id: "a", text: "Pic 1", isCorrect: false },
+      { id: "b", text: "Pic 2", isCorrect: true },
+    ],
+  },
+  {
+    id: "q9",
+    question: "Which one is correct ?",
+    image: "/q9.jpg",
     options: [
       { id: "a", text: "Tr. Theingi looks like Lisa.", isCorrect: false },
       { id: "b", text: "Lisa looks like Tr. Theingi", isCorrect: true },
     ],
   },
   {
-    id: "q9",
+    id: "q10",
     question: "How many days did we attend this class until now?",
-    image: "/q9.jpeg",
+    image: "/q10.jpeg",
     options: [
       { id: "a", text: "45 days", isCorrect: false },
       { id: "b", text: "46 days", isCorrect: true },
