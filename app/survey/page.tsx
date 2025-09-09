@@ -86,7 +86,7 @@ const surveyQuestions = [
   },
   {
     id: "q8",
-    question: "Which one is unsafe for use?",
+    question: "Which one harms the environment the most?",
     image: "/q8.jpg",
     options: [
       { id: "a", text: "Pic 1", isCorrect: false },
