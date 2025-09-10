@@ -108,8 +108,8 @@ const surveyQuestions = [
     image: "/q10.jpeg",
     options: [
       { id: "a", text: "45 days", isCorrect: false },
-      { id: "b", text: "46 days", isCorrect: true },
-      { id: "c", text: "47 days", isCorrect: false },
+      { id: "b", text: "46 days", isCorrect: false },
+      { id: "c", text: "47 days", isCorrect: true },
     ],
   },
 ]
