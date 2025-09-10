@@ -111,7 +111,7 @@ export default function HomePage() {
                   className="bg-input border-border focus:ring-2 focus:ring-ring focus:border-transparent"
                   disabled={isLoading}
                 />
-                <p className="text-sm text-muted-foreground">3-20 characters</p>
+                <p className="text-sm text-muted-foreground">3-20 characters (Don't use burmese naming)</p>
               </div>
 
               {error && (
